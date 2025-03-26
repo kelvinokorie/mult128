@@ -22,7 +22,7 @@
     @extend .msg;
     background-color: blue;
     &:hover{
-        background-color: lighten(blue, 20%);
+        background-color: lighten(blue, 10%);
     }
 }
 .msg-warning{
