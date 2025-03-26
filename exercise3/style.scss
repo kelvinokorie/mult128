@@ -26,9 +26,9 @@
     }
 }
 .msg-warning{
-    background-color: rgb(130, 130, 22);
+    background-color: rgba(187, 187, 16, 0.616);
     &:hover{
-        background-color: lighten(yellow, 20%);
+        background-color: lighten(yellow, 10%);
     }
 }
 .msg-danger{
