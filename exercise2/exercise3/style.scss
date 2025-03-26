@@ -2,13 +2,16 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     background: 
-#888;
+#07ba91;
     font-size: 1rem;
     color: white;
     padding: 1rem 1.25rem;
     margin: 1em 0;
     display: inline-block;
     cursor: pointer;
+    &:hover{
+        background-color: lighten(orange, 20%);
+    }
   }
   
   .msg h1 {
