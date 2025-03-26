@@ -25,3 +25,15 @@
         background-color: lighten(blue, 20%);
     }
 }
+.msg-warning{
+    background-color: rgb(130, 130, 22);
+    &:hover{
+        background-color: lighten(yellow, 20%);
+    }
+}
+.msg-danger{
+    background-color: red;
+    &:hover{
+        background-color: lighten(red, 20%);
+    }
+}
