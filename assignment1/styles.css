@@ -27,4 +27,21 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #1c08b5;
+}
+
+#moving-image {
+    width: 50px;
+    height: auto;
+    position:absolute;
+}
+
+#scroll-image {
+    width: 50%;
+    height: 100px;
+    transition: transform 0.5s ease;
+}
+
 /* Add specific styles for your sections, images, buttons, etc., here */
