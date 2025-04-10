@@ -14,6 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    align-items: center;
 }
 #scroll-activated-image {
     display: flex;
@@ -34,12 +35,16 @@ body {
 }
 section {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
     background-color: rgb(137, 70, 70);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 h2 {
     color: #2c84a7;
@@ -55,5 +60,4 @@ button {
 button:hover {
     background-color: #1c08b5;
 }
-
 /* Add specific styles for your sections, images, buttons, etc., here */
