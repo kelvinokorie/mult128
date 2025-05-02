@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif; 
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #cc1121; /* Primary Bootstrap color or your accent color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
