@@ -12,3 +12,14 @@ h1, h2, h3 {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    color: #0bb224;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
